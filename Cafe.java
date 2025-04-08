@@ -73,20 +73,11 @@ public class Cafe extends Building{
 
 
     /**
-     * Modifying the go up method from building
+     * Modifying the go to floor method from building
      */
-    public void goUp() {
-        throw new UnsupportedOperationException("Sorry, you can't go up");
+    public void goToFloor(){
+        throw new UnsupportedOperationException("Sorry, you can't go there! Employees only!");
     }
-
-
-    /**
-     * Modifying the go down method from building
-     */
-    public void goDown(){
-        throw new UnsupportedOperationException("Sorry, you can't go down!");
-    }
-
 
     /**
      * Modying the show options method

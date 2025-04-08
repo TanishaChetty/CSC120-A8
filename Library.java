@@ -127,11 +127,7 @@ public class Library extends Building {
   * Modifying the go to floor method
   */
   public void goToFloor(int floorNum){
-    if (this.hasElevator == true){
-      super.goToFloor(floorNum);
-    } else {
-      System.out.println("Sorry! This house does Not have an elevator");
-    }
+    super.goToFloor(floorNum);
   
   }
    
